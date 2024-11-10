@@ -2,4 +2,4 @@ streamlit
 openai==1.54.3
 langchain-core==0.3.15
 langchain-openai==0.2.6
-
+oracledb==2.4.1
