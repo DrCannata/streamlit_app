@@ -8,7 +8,6 @@ openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
 def generate_response(input_text):
     model = ChatOpenAI(temperature=0.7, api_key=openai_api_key)
-    input_text = input_text + "What is quantum physics"
     st.info(model.invoke(input_text))
 
 
