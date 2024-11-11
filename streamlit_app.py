@@ -15,7 +15,7 @@ import os
 # userpwd = os.environ.get("PYTHON_PASSWORD")
 
 # This was helpful: https://python-oracledb.readthedocs.io/en/latest/user_guide/connection_handling.html
-oracledb. init_oracle_client()
+oracledb.init_oracle_client()
 connection = oracledb.connect(user="OMLUSER", password="Cenne#e49Cenne#e49",
                               host="150.136.183.171", port=1521, service_name="DB23AI_PDB1.sub08201532330.philfnvcn.oraclevcn.com")
 print(connection)
