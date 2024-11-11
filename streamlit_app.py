@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_openai.chat_models import ChatOpenAI
-import oracledb
+# import oracledb
 
 import pyoracleclient as pyoc
 
