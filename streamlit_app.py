@@ -2,9 +2,9 @@ import streamlit as st
 from langchain_openai.chat_models import ChatOpenAI
 # import oracledb
 
-import pyoracleclient as pyoc
+# import pyoracleclient as pyoc
 
-pyoc.get_client(version='19.3.0.0.0', sys='linux', url=None)
+# pyoc.get_client(version='19.3.0.0.0', sys='linux', url=None)
 
 st.title("🦜🔗 Quickstart App")
 
