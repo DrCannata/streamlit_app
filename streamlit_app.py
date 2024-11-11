@@ -2,6 +2,10 @@ import streamlit as st
 from langchain_openai.chat_models import ChatOpenAI
 import oracledb
 
+import pyoracleclient as pyoc
+
+pyoc.get_client(version='19.3.0.0.0', sys='linux', url=None)
+
 st.title("🦜🔗 Quickstart App")
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
