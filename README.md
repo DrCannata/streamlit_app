@@ -12,3 +12,4 @@ export JAVA_HOME="/home/vscode/.vscode-remote/extensions/oracle.sql-developer-24
 export PATH=$JAVA_HOME:$PATH
 
 ./sqlcl/bin/sql OMLUSER/Cenne#e49Cenne#e49@150.136.183.171/DB23AI_PDB1.sub08201532330.philfnvcn.oraclevcn.com  
+
