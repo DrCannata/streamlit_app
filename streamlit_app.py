@@ -24,7 +24,7 @@ with st.form("my_form"):
 
         import subprocess
         import json
-        result = subprocess.run('"./test.sh" "select \'' + subject1 + '\' as attr from dual union select \'' + subject2 + '\' as attr from dual"', shell=True, stdout=subprocess.PIPE)
+        result = subprocess.run('"./test.sh" "select \'' + subject1 + '\' as attr union select \'' + subject2 + '\' as attr"', shell=True, stdout=subprocess.PIPE)
         # print(result.stdout)
         json_object = json.loads(result.stdout)
         for i in json_object.get("results"):
