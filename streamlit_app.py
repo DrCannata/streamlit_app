@@ -3,7 +3,7 @@ from langchain_openai.chat_models import ChatOpenAI
 
 st.title("🦜🔗 Quickstart App")
 
-openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password", value='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')
+openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password", value='')
 subject1 = st.sidebar.text_input("Query subject 1", value="Europe")
 subject2 = st.sidebar.text_input("Query subject 2", value="Turkey")
 
